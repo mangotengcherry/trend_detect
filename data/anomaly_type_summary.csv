@@ -1,0 +1,11 @@
+trend_type,series_count,point_count,mean_value,std_value,min_value,max_value,anomalous_point_count,invalid_reading_count,outside_control_count
+normal,40,1200,99.785,1.339,95.881,104.134,0,0,1
+single_spike_ignore,40,1200,100.068,1.453,93.935,106.002,40,0,32
+critical_spike,40,1200,100.016,2.373,88.324,110.724,98,0,101
+persistent_high,40,1200,101.887,2.271,96.233,107.021,614,0,582
+persistent_low,40,1200,98.172,2.233,94.026,105.313,633,0,599
+gradual_up_drift,40,1200,100.555,1.768,95.529,107.125,471,0,115
+gradual_down_drift,40,1200,99.041,1.773,92.411,103.474,458,0,141
+level_shift,40,1200,100.097,2.472,92.878,107.559,609,0,246
+variance_increase,40,1200,100.254,2.288,90.221,111.468,628,0,172
+measurement_error,40,1200,95.600,21.319,0.000,114.688,123,123,125

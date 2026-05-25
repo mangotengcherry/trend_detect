@@ -1,0 +1,401 @@
+series_id,trend_type,lot_id,wafer_id,equipment_id,process_step,sensor_name,target,sigma,anomaly_start,detail
+normal_001,normal,LOT-2026-0001,W04,EQP-12,PHOTO,film_thickness_nm,98.634,0.969,12,none
+normal_002,normal,LOT-2026-0002,W17,EQP-02,CMP,rf_power_w,98.985,1.171,13,none
+normal_003,normal,LOT-2026-0003,W16,EQP-01,PVD,rf_power_w,98.705,0.967,17,none
+normal_004,normal,LOT-2026-0004,W05,EQP-02,PVD,film_thickness_nm,98.932,0.871,13,none
+normal_005,normal,LOT-2026-0005,W24,EQP-09,DIFFUSION,etch_rate_nm_min,101.121,1.204,17,none
+normal_006,normal,LOT-2026-0006,W15,EQP-12,CVD,particle_count,100.039,1.214,16,none
+normal_007,normal,LOT-2026-0007,W03,EQP-11,PVD,critical_dimension_nm,99.306,1.010,13,none
+normal_008,normal,LOT-2026-0008,W08,EQP-09,CVD,film_thickness_nm,100.122,1.202,16,none
+normal_009,normal,LOT-2026-0009,W06,EQP-05,PVD,chamber_pressure_mTorr,98.574,0.777,17,none
+normal_010,normal,LOT-2026-0010,W25,EQP-06,DIFFUSION,chamber_pressure_mTorr,100.112,1.253,13,none
+normal_011,normal,LOT-2026-0011,W07,EQP-02,CMP,etch_rate_nm_min,101.272,0.854,12,none
+normal_012,normal,LOT-2026-0012,W09,EQP-05,ETCH,critical_dimension_nm,99.787,0.955,12,none
+normal_013,normal,LOT-2026-0013,W12,EQP-06,ION_IMPLANT,rf_power_w,100.839,1.326,15,none
+normal_014,normal,LOT-2026-0014,W14,EQP-05,CMP,temperature_c,99.071,0.904,14,none
+normal_015,normal,LOT-2026-0015,W23,EQP-02,DIFFUSION,chamber_pressure_mTorr,99.537,1.111,17,none
+normal_016,normal,LOT-2026-0016,W21,EQP-05,CVD,overlay_error_nm,99.770,0.987,14,none
+normal_017,normal,LOT-2026-0017,W25,EQP-04,CMP,temperature_c,99.561,0.918,12,none
+normal_018,normal,LOT-2026-0018,W13,EQP-03,ION_IMPLANT,particle_count,98.998,1.316,12,none
+normal_019,normal,LOT-2026-0019,W23,EQP-11,PVD,temperature_c,101.412,0.921,12,none
+normal_020,normal,LOT-2026-0020,W10,EQP-05,ETCH,rf_power_w,100.499,0.937,16,none
+normal_021,normal,LOT-2026-0021,W20,EQP-02,DIFFUSION,etch_rate_nm_min,99.598,1.217,12,none
+normal_022,normal,LOT-2026-0022,W10,EQP-06,CVD,chamber_pressure_mTorr,99.468,0.995,15,none
+normal_023,normal,LOT-2026-0023,W24,EQP-02,METROLOGY,temperature_c,99.677,0.962,17,none
+normal_024,normal,LOT-2026-0024,W04,EQP-09,PHOTO,chamber_pressure_mTorr,100.928,1.080,14,none
+normal_025,normal,LOT-2026-0025,W18,EQP-12,CMP,rf_power_w,98.619,0.770,14,none
+normal_026,normal,LOT-2026-0026,W05,EQP-08,ETCH,critical_dimension_nm,101.212,1.331,17,none
+normal_027,normal,LOT-2026-0027,W21,EQP-12,DIFFUSION,particle_count,100.183,0.936,17,none
+normal_028,normal,LOT-2026-0028,W17,EQP-07,DIFFUSION,film_thickness_nm,98.728,0.868,12,none
+normal_029,normal,LOT-2026-0029,W19,EQP-08,CVD,film_thickness_nm,98.658,0.896,16,none
+normal_030,normal,LOT-2026-0030,W25,EQP-09,DIFFUSION,film_thickness_nm,99.210,0.804,12,none
+normal_031,normal,LOT-2026-0031,W18,EQP-03,DIFFUSION,etch_rate_nm_min,101.057,0.817,12,none
+normal_032,normal,LOT-2026-0032,W20,EQP-11,PHOTO,critical_dimension_nm,100.017,0.875,14,none
+normal_033,normal,LOT-2026-0033,W02,EQP-01,ION_IMPLANT,overlay_error_nm,98.969,0.846,12,none
+normal_034,normal,LOT-2026-0034,W07,EQP-12,ETCH,film_thickness_nm,100.439,0.819,17,none
+normal_035,normal,LOT-2026-0035,W18,EQP-12,ETCH,etch_rate_nm_min,99.017,1.231,16,none
+normal_036,normal,LOT-2026-0036,W06,EQP-03,DIFFUSION,particle_count,100.025,1.164,16,none
+normal_037,normal,LOT-2026-0037,W07,EQP-04,CMP,critical_dimension_nm,100.285,1.186,16,none
+normal_038,normal,LOT-2026-0038,W22,EQP-08,PHOTO,temperature_c,100.738,1.039,17,none
+normal_039,normal,LOT-2026-0039,W16,EQP-08,ION_IMPLANT,rf_power_w,100.969,1.110,17,none
+normal_040,normal,LOT-2026-0040,W11,EQP-09,PVD,critical_dimension_nm,98.845,0.966,13,none
+single_spike_ignore_001,single_spike_ignore,LOT-2026-0041,W08,EQP-01,CMP,rf_power_w,100.772,1.229,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_002,single_spike_ignore,LOT-2026-0042,W21,EQP-04,ION_IMPLANT,chamber_pressure_mTorr,100.759,0.983,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_003,single_spike_ignore,LOT-2026-0043,W19,EQP-01,DIFFUSION,rf_power_w,101.001,0.855,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_004,single_spike_ignore,LOT-2026-0044,W23,EQP-05,ETCH,overlay_error_nm,101.235,1.240,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_005,single_spike_ignore,LOT-2026-0045,W15,EQP-08,ION_IMPLANT,rf_power_w,101.329,0.752,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_006,single_spike_ignore,LOT-2026-0046,W22,EQP-09,PVD,overlay_error_nm,98.576,1.108,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_007,single_spike_ignore,LOT-2026-0047,W01,EQP-08,METROLOGY,chamber_pressure_mTorr,100.279,0.882,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_008,single_spike_ignore,LOT-2026-0048,W23,EQP-11,PHOTO,rf_power_w,100.093,0.841,16,one isolated control-limit breach; recovery follows
+single_spike_ignore_009,single_spike_ignore,LOT-2026-0049,W08,EQP-11,METROLOGY,rf_power_w,100.194,0.911,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_010,single_spike_ignore,LOT-2026-0050,W25,EQP-10,CMP,critical_dimension_nm,101.131,1.004,16,one isolated control-limit breach; recovery follows
+single_spike_ignore_011,single_spike_ignore,LOT-2026-0051,W08,EQP-07,METROLOGY,particle_count,99.819,1.262,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_012,single_spike_ignore,LOT-2026-0052,W08,EQP-04,ION_IMPLANT,particle_count,101.151,0.852,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_013,single_spike_ignore,LOT-2026-0053,W18,EQP-12,PHOTO,rf_power_w,99.519,0.939,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_014,single_spike_ignore,LOT-2026-0054,W15,EQP-10,DIFFUSION,film_thickness_nm,99.133,0.823,16,one isolated control-limit breach; recovery follows
+single_spike_ignore_015,single_spike_ignore,LOT-2026-0055,W17,EQP-07,ETCH,film_thickness_nm,99.958,1.341,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_016,single_spike_ignore,LOT-2026-0056,W10,EQP-08,DIFFUSION,overlay_error_nm,99.950,1.326,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_017,single_spike_ignore,LOT-2026-0057,W23,EQP-05,PVD,chamber_pressure_mTorr,100.951,1.287,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_018,single_spike_ignore,LOT-2026-0058,W21,EQP-04,DIFFUSION,rf_power_w,100.560,1.069,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_019,single_spike_ignore,LOT-2026-0059,W21,EQP-02,PVD,temperature_c,100.360,0.797,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_020,single_spike_ignore,LOT-2026-0060,W22,EQP-09,ION_IMPLANT,etch_rate_nm_min,98.596,0.814,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_021,single_spike_ignore,LOT-2026-0061,W24,EQP-03,METROLOGY,particle_count,99.131,1.239,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_022,single_spike_ignore,LOT-2026-0062,W14,EQP-05,METROLOGY,film_thickness_nm,99.391,1.018,16,one isolated control-limit breach; recovery follows
+single_spike_ignore_023,single_spike_ignore,LOT-2026-0063,W04,EQP-04,PHOTO,rf_power_w,99.214,1.330,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_024,single_spike_ignore,LOT-2026-0064,W18,EQP-05,PHOTO,rf_power_w,100.435,0.968,15,one isolated control-limit breach; recovery follows
+single_spike_ignore_025,single_spike_ignore,LOT-2026-0065,W05,EQP-09,ETCH,chamber_pressure_mTorr,99.463,1.288,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_026,single_spike_ignore,LOT-2026-0066,W14,EQP-10,PVD,etch_rate_nm_min,99.549,0.925,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_027,single_spike_ignore,LOT-2026-0067,W17,EQP-10,PVD,critical_dimension_nm,100.046,0.851,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_028,single_spike_ignore,LOT-2026-0068,W20,EQP-08,PVD,film_thickness_nm,99.101,1.041,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_029,single_spike_ignore,LOT-2026-0069,W23,EQP-07,DIFFUSION,etch_rate_nm_min,99.081,0.907,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_030,single_spike_ignore,LOT-2026-0070,W09,EQP-06,DIFFUSION,chamber_pressure_mTorr,98.899,0.837,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_031,single_spike_ignore,LOT-2026-0071,W04,EQP-05,CMP,overlay_error_nm,101.445,1.073,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_032,single_spike_ignore,LOT-2026-0072,W11,EQP-03,METROLOGY,particle_count,98.871,1.171,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_033,single_spike_ignore,LOT-2026-0073,W25,EQP-05,PVD,particle_count,100.113,1.028,14,one isolated control-limit breach; recovery follows
+single_spike_ignore_034,single_spike_ignore,LOT-2026-0074,W10,EQP-07,METROLOGY,particle_count,99.547,1.099,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_035,single_spike_ignore,LOT-2026-0075,W09,EQP-06,CMP,film_thickness_nm,100.755,1.061,13,one isolated control-limit breach; recovery follows
+single_spike_ignore_036,single_spike_ignore,LOT-2026-0076,W09,EQP-03,ETCH,temperature_c,100.601,0.796,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_037,single_spike_ignore,LOT-2026-0077,W08,EQP-10,DIFFUSION,chamber_pressure_mTorr,100.023,0.825,12,one isolated control-limit breach; recovery follows
+single_spike_ignore_038,single_spike_ignore,LOT-2026-0078,W11,EQP-12,METROLOGY,rf_power_w,99.695,1.265,16,one isolated control-limit breach; recovery follows
+single_spike_ignore_039,single_spike_ignore,LOT-2026-0079,W06,EQP-01,ION_IMPLANT,temperature_c,100.413,0.937,17,one isolated control-limit breach; recovery follows
+single_spike_ignore_040,single_spike_ignore,LOT-2026-0080,W06,EQP-09,DIFFUSION,overlay_error_nm,100.982,1.242,12,one isolated control-limit breach; recovery follows
+critical_spike_001,critical_spike,LOT-2026-0081,W15,EQP-06,PHOTO,film_thickness_nm,100.571,1.102,15,2 large excursions beyond critical threshold
+critical_spike_002,critical_spike,LOT-2026-0082,W03,EQP-11,PVD,chamber_pressure_mTorr,99.002,1.332,16,2 large excursions beyond critical threshold
+critical_spike_003,critical_spike,LOT-2026-0083,W16,EQP-06,CMP,chamber_pressure_mTorr,99.813,1.137,14,2 large excursions beyond critical threshold
+critical_spike_004,critical_spike,LOT-2026-0084,W08,EQP-11,ETCH,etch_rate_nm_min,98.990,0.863,12,2 large excursions beyond critical threshold
+critical_spike_005,critical_spike,LOT-2026-0085,W23,EQP-08,CVD,overlay_error_nm,99.669,0.760,15,3 large excursions beyond critical threshold
+critical_spike_006,critical_spike,LOT-2026-0086,W11,EQP-05,PVD,overlay_error_nm,101.125,1.308,13,2 large excursions beyond critical threshold
+critical_spike_007,critical_spike,LOT-2026-0087,W24,EQP-09,CMP,rf_power_w,99.204,0.851,15,2 large excursions beyond critical threshold
+critical_spike_008,critical_spike,LOT-2026-0088,W11,EQP-12,ION_IMPLANT,overlay_error_nm,100.752,0.914,17,3 large excursions beyond critical threshold
+critical_spike_009,critical_spike,LOT-2026-0089,W12,EQP-10,DIFFUSION,overlay_error_nm,100.091,0.760,16,2 large excursions beyond critical threshold
+critical_spike_010,critical_spike,LOT-2026-0090,W11,EQP-01,CMP,critical_dimension_nm,99.764,1.240,13,3 large excursions beyond critical threshold
+critical_spike_011,critical_spike,LOT-2026-0091,W20,EQP-06,METROLOGY,critical_dimension_nm,100.036,1.081,15,2 large excursions beyond critical threshold
+critical_spike_012,critical_spike,LOT-2026-0092,W18,EQP-03,CMP,chamber_pressure_mTorr,98.603,1.109,16,3 large excursions beyond critical threshold
+critical_spike_013,critical_spike,LOT-2026-0093,W06,EQP-02,METROLOGY,chamber_pressure_mTorr,101.103,0.809,12,2 large excursions beyond critical threshold
+critical_spike_014,critical_spike,LOT-2026-0094,W18,EQP-12,PHOTO,film_thickness_nm,99.409,0.786,14,3 large excursions beyond critical threshold
+critical_spike_015,critical_spike,LOT-2026-0095,W07,EQP-05,DIFFUSION,particle_count,100.079,1.192,16,3 large excursions beyond critical threshold
+critical_spike_016,critical_spike,LOT-2026-0096,W03,EQP-03,PVD,rf_power_w,99.054,0.753,17,3 large excursions beyond critical threshold
+critical_spike_017,critical_spike,LOT-2026-0097,W24,EQP-12,METROLOGY,etch_rate_nm_min,100.808,1.307,12,3 large excursions beyond critical threshold
+critical_spike_018,critical_spike,LOT-2026-0098,W13,EQP-11,METROLOGY,etch_rate_nm_min,99.038,1.140,17,2 large excursions beyond critical threshold
+critical_spike_019,critical_spike,LOT-2026-0099,W05,EQP-06,PHOTO,rf_power_w,101.249,1.246,17,2 large excursions beyond critical threshold
+critical_spike_020,critical_spike,LOT-2026-0100,W24,EQP-09,PHOTO,particle_count,100.405,1.052,16,3 large excursions beyond critical threshold
+critical_spike_021,critical_spike,LOT-2026-0101,W15,EQP-07,ION_IMPLANT,critical_dimension_nm,101.414,1.210,12,3 large excursions beyond critical threshold
+critical_spike_022,critical_spike,LOT-2026-0102,W22,EQP-09,ETCH,critical_dimension_nm,99.363,1.103,12,2 large excursions beyond critical threshold
+critical_spike_023,critical_spike,LOT-2026-0103,W17,EQP-11,METROLOGY,particle_count,98.701,0.778,15,3 large excursions beyond critical threshold
+critical_spike_024,critical_spike,LOT-2026-0104,W17,EQP-01,CVD,rf_power_w,101.370,1.086,16,2 large excursions beyond critical threshold
+critical_spike_025,critical_spike,LOT-2026-0105,W10,EQP-07,METROLOGY,rf_power_w,99.977,1.168,17,3 large excursions beyond critical threshold
+critical_spike_026,critical_spike,LOT-2026-0106,W24,EQP-06,CVD,particle_count,100.225,1.169,16,3 large excursions beyond critical threshold
+critical_spike_027,critical_spike,LOT-2026-0107,W18,EQP-11,CMP,temperature_c,101.388,1.084,13,3 large excursions beyond critical threshold
+critical_spike_028,critical_spike,LOT-2026-0108,W04,EQP-08,METROLOGY,temperature_c,99.995,1.273,16,2 large excursions beyond critical threshold
+critical_spike_029,critical_spike,LOT-2026-0109,W04,EQP-12,DIFFUSION,chamber_pressure_mTorr,100.636,1.040,16,2 large excursions beyond critical threshold
+critical_spike_030,critical_spike,LOT-2026-0110,W05,EQP-12,DIFFUSION,overlay_error_nm,99.645,0.855,16,2 large excursions beyond critical threshold
+critical_spike_031,critical_spike,LOT-2026-0111,W11,EQP-03,DIFFUSION,rf_power_w,99.283,1.346,12,2 large excursions beyond critical threshold
+critical_spike_032,critical_spike,LOT-2026-0112,W02,EQP-04,ION_IMPLANT,chamber_pressure_mTorr,99.555,1.086,15,3 large excursions beyond critical threshold
+critical_spike_033,critical_spike,LOT-2026-0113,W11,EQP-03,CVD,temperature_c,98.623,1.209,15,2 large excursions beyond critical threshold
+critical_spike_034,critical_spike,LOT-2026-0114,W02,EQP-04,PHOTO,temperature_c,101.224,0.765,15,3 large excursions beyond critical threshold
+critical_spike_035,critical_spike,LOT-2026-0115,W07,EQP-11,ETCH,overlay_error_nm,101.071,1.239,17,2 large excursions beyond critical threshold
+critical_spike_036,critical_spike,LOT-2026-0116,W22,EQP-04,CVD,film_thickness_nm,99.808,1.042,14,3 large excursions beyond critical threshold
+critical_spike_037,critical_spike,LOT-2026-0117,W06,EQP-02,METROLOGY,chamber_pressure_mTorr,101.146,0.894,12,2 large excursions beyond critical threshold
+critical_spike_038,critical_spike,LOT-2026-0118,W02,EQP-07,ETCH,rf_power_w,99.599,1.197,12,3 large excursions beyond critical threshold
+critical_spike_039,critical_spike,LOT-2026-0119,W19,EQP-04,ETCH,particle_count,100.430,1.054,12,2 large excursions beyond critical threshold
+critical_spike_040,critical_spike,LOT-2026-0120,W24,EQP-11,PVD,rf_power_w,99.253,1.346,15,2 large excursions beyond critical threshold
+persistent_high_001,persistent_high,LOT-2026-0121,W12,EQP-10,DIFFUSION,overlay_error_nm,99.777,0.773,15,sustained high-side control-limit breach
+persistent_high_002,persistent_high,LOT-2026-0122,W09,EQP-07,METROLOGY,temperature_c,98.507,0.776,14,sustained high-side control-limit breach
+persistent_high_003,persistent_high,LOT-2026-0123,W02,EQP-07,PVD,particle_count,99.388,1.112,17,sustained high-side control-limit breach
+persistent_high_004,persistent_high,LOT-2026-0124,W25,EQP-04,ION_IMPLANT,chamber_pressure_mTorr,100.549,0.875,15,sustained high-side control-limit breach
+persistent_high_005,persistent_high,LOT-2026-0125,W15,EQP-04,PVD,chamber_pressure_mTorr,99.503,0.943,15,sustained high-side control-limit breach
+persistent_high_006,persistent_high,LOT-2026-0126,W16,EQP-08,CMP,rf_power_w,99.977,1.164,12,sustained high-side control-limit breach
+persistent_high_007,persistent_high,LOT-2026-0127,W11,EQP-03,ION_IMPLANT,etch_rate_nm_min,98.780,1.045,14,sustained high-side control-limit breach
+persistent_high_008,persistent_high,LOT-2026-0128,W07,EQP-10,ETCH,chamber_pressure_mTorr,100.011,1.217,13,sustained high-side control-limit breach
+persistent_high_009,persistent_high,LOT-2026-0129,W13,EQP-12,METROLOGY,particle_count,100.315,0.934,12,sustained high-side control-limit breach
+persistent_high_010,persistent_high,LOT-2026-0130,W19,EQP-12,ETCH,rf_power_w,100.077,1.040,13,sustained high-side control-limit breach
+persistent_high_011,persistent_high,LOT-2026-0131,W21,EQP-10,ETCH,overlay_error_nm,99.061,1.097,16,sustained high-side control-limit breach
+persistent_high_012,persistent_high,LOT-2026-0132,W06,EQP-06,METROLOGY,particle_count,100.147,1.203,17,sustained high-side control-limit breach
+persistent_high_013,persistent_high,LOT-2026-0133,W04,EQP-04,ION_IMPLANT,film_thickness_nm,99.201,1.204,16,sustained high-side control-limit breach
+persistent_high_014,persistent_high,LOT-2026-0134,W25,EQP-06,PVD,rf_power_w,99.365,0.887,13,sustained high-side control-limit breach
+persistent_high_015,persistent_high,LOT-2026-0135,W01,EQP-10,PVD,film_thickness_nm,101.384,1.335,17,sustained high-side control-limit breach
+persistent_high_016,persistent_high,LOT-2026-0136,W02,EQP-02,ETCH,overlay_error_nm,100.850,1.276,17,sustained high-side control-limit breach
+persistent_high_017,persistent_high,LOT-2026-0137,W18,EQP-12,DIFFUSION,particle_count,98.934,1.289,12,sustained high-side control-limit breach
+persistent_high_018,persistent_high,LOT-2026-0138,W14,EQP-06,ION_IMPLANT,etch_rate_nm_min,98.683,1.034,16,sustained high-side control-limit breach
+persistent_high_019,persistent_high,LOT-2026-0139,W12,EQP-03,ION_IMPLANT,etch_rate_nm_min,101.332,0.865,12,sustained high-side control-limit breach
+persistent_high_020,persistent_high,LOT-2026-0140,W08,EQP-09,PVD,temperature_c,98.649,1.232,13,sustained high-side control-limit breach
+persistent_high_021,persistent_high,LOT-2026-0141,W09,EQP-08,PVD,particle_count,101.143,1.295,15,sustained high-side control-limit breach
+persistent_high_022,persistent_high,LOT-2026-0142,W10,EQP-09,DIFFUSION,film_thickness_nm,100.400,1.268,17,sustained high-side control-limit breach
+persistent_high_023,persistent_high,LOT-2026-0143,W04,EQP-05,METROLOGY,etch_rate_nm_min,99.868,0.834,12,sustained high-side control-limit breach
+persistent_high_024,persistent_high,LOT-2026-0144,W17,EQP-10,DIFFUSION,temperature_c,99.928,1.235,12,sustained high-side control-limit breach
+persistent_high_025,persistent_high,LOT-2026-0145,W08,EQP-07,ION_IMPLANT,rf_power_w,101.099,0.831,17,sustained high-side control-limit breach
+persistent_high_026,persistent_high,LOT-2026-0146,W04,EQP-02,PHOTO,film_thickness_nm,101.242,1.127,15,sustained high-side control-limit breach
+persistent_high_027,persistent_high,LOT-2026-0147,W01,EQP-02,DIFFUSION,critical_dimension_nm,99.804,0.804,16,sustained high-side control-limit breach
+persistent_high_028,persistent_high,LOT-2026-0148,W07,EQP-02,PVD,critical_dimension_nm,98.946,0.917,13,sustained high-side control-limit breach
+persistent_high_029,persistent_high,LOT-2026-0149,W12,EQP-12,PVD,temperature_c,100.419,1.006,15,sustained high-side control-limit breach
+persistent_high_030,persistent_high,LOT-2026-0150,W14,EQP-12,DIFFUSION,rf_power_w,101.243,0.954,14,sustained high-side control-limit breach
+persistent_high_031,persistent_high,LOT-2026-0151,W24,EQP-04,CMP,overlay_error_nm,100.069,0.816,12,sustained high-side control-limit breach
+persistent_high_032,persistent_high,LOT-2026-0152,W23,EQP-06,PHOTO,chamber_pressure_mTorr,99.946,1.222,17,sustained high-side control-limit breach
+persistent_high_033,persistent_high,LOT-2026-0153,W24,EQP-01,CVD,critical_dimension_nm,99.674,1.172,16,sustained high-side control-limit breach
+persistent_high_034,persistent_high,LOT-2026-0154,W05,EQP-01,ETCH,temperature_c,99.871,1.258,17,sustained high-side control-limit breach
+persistent_high_035,persistent_high,LOT-2026-0155,W06,EQP-01,CVD,chamber_pressure_mTorr,100.713,0.835,14,sustained high-side control-limit breach
+persistent_high_036,persistent_high,LOT-2026-0156,W06,EQP-08,CMP,chamber_pressure_mTorr,98.996,0.932,13,sustained high-side control-limit breach
+persistent_high_037,persistent_high,LOT-2026-0157,W01,EQP-03,ETCH,etch_rate_nm_min,98.526,0.882,17,sustained high-side control-limit breach
+persistent_high_038,persistent_high,LOT-2026-0158,W25,EQP-02,PHOTO,etch_rate_nm_min,101.384,1.287,17,sustained high-side control-limit breach
+persistent_high_039,persistent_high,LOT-2026-0159,W17,EQP-08,PVD,critical_dimension_nm,101.347,1.009,16,sustained high-side control-limit breach
+persistent_high_040,persistent_high,LOT-2026-0160,W15,EQP-04,ION_IMPLANT,chamber_pressure_mTorr,99.444,0.765,12,sustained high-side control-limit breach
+persistent_low_001,persistent_low,LOT-2026-0161,W16,EQP-04,DIFFUSION,temperature_c,101.042,1.024,16,sustained low-side control-limit breach
+persistent_low_002,persistent_low,LOT-2026-0162,W09,EQP-04,DIFFUSION,film_thickness_nm,99.454,0.848,13,sustained low-side control-limit breach
+persistent_low_003,persistent_low,LOT-2026-0163,W08,EQP-08,ETCH,particle_count,99.140,0.853,17,sustained low-side control-limit breach
+persistent_low_004,persistent_low,LOT-2026-0164,W10,EQP-02,DIFFUSION,rf_power_w,100.986,1.231,12,sustained low-side control-limit breach
+persistent_low_005,persistent_low,LOT-2026-0165,W25,EQP-04,DIFFUSION,chamber_pressure_mTorr,100.057,0.752,15,sustained low-side control-limit breach
+persistent_low_006,persistent_low,LOT-2026-0166,W23,EQP-10,CMP,chamber_pressure_mTorr,100.197,0.936,13,sustained low-side control-limit breach
+persistent_low_007,persistent_low,LOT-2026-0167,W02,EQP-06,CVD,temperature_c,100.298,1.159,13,sustained low-side control-limit breach
+persistent_low_008,persistent_low,LOT-2026-0168,W12,EQP-05,CVD,critical_dimension_nm,99.040,0.883,17,sustained low-side control-limit breach
+persistent_low_009,persistent_low,LOT-2026-0169,W01,EQP-04,ION_IMPLANT,overlay_error_nm,100.826,1.033,14,sustained low-side control-limit breach
+persistent_low_010,persistent_low,LOT-2026-0170,W01,EQP-01,METROLOGY,chamber_pressure_mTorr,98.884,1.121,14,sustained low-side control-limit breach
+persistent_low_011,persistent_low,LOT-2026-0171,W02,EQP-12,ION_IMPLANT,film_thickness_nm,101.484,1.289,15,sustained low-side control-limit breach
+persistent_low_012,persistent_low,LOT-2026-0172,W17,EQP-10,CVD,critical_dimension_nm,101.167,1.213,13,sustained low-side control-limit breach
+persistent_low_013,persistent_low,LOT-2026-0173,W25,EQP-01,METROLOGY,chamber_pressure_mTorr,99.838,1.134,15,sustained low-side control-limit breach
+persistent_low_014,persistent_low,LOT-2026-0174,W15,EQP-09,METROLOGY,etch_rate_nm_min,100.797,1.287,14,sustained low-side control-limit breach
+persistent_low_015,persistent_low,LOT-2026-0175,W06,EQP-06,CMP,film_thickness_nm,100.997,0.982,16,sustained low-side control-limit breach
+persistent_low_016,persistent_low,LOT-2026-0176,W25,EQP-09,ETCH,film_thickness_nm,99.667,1.207,13,sustained low-side control-limit breach
+persistent_low_017,persistent_low,LOT-2026-0177,W25,EQP-06,DIFFUSION,film_thickness_nm,100.037,1.104,14,sustained low-side control-limit breach
+persistent_low_018,persistent_low,LOT-2026-0178,W10,EQP-01,ETCH,chamber_pressure_mTorr,99.538,1.120,13,sustained low-side control-limit breach
+persistent_low_019,persistent_low,LOT-2026-0179,W05,EQP-02,PHOTO,particle_count,101.429,0.890,13,sustained low-side control-limit breach
+persistent_low_020,persistent_low,LOT-2026-0180,W14,EQP-02,CVD,film_thickness_nm,101.128,1.152,13,sustained low-side control-limit breach
+persistent_low_021,persistent_low,LOT-2026-0181,W09,EQP-03,CMP,critical_dimension_nm,100.767,1.062,15,sustained low-side control-limit breach
+persistent_low_022,persistent_low,LOT-2026-0182,W20,EQP-10,DIFFUSION,overlay_error_nm,100.043,0.932,13,sustained low-side control-limit breach
+persistent_low_023,persistent_low,LOT-2026-0183,W12,EQP-05,PVD,rf_power_w,100.247,0.862,13,sustained low-side control-limit breach
+persistent_low_024,persistent_low,LOT-2026-0184,W04,EQP-04,PHOTO,film_thickness_nm,100.843,1.059,15,sustained low-side control-limit breach
+persistent_low_025,persistent_low,LOT-2026-0185,W08,EQP-12,ETCH,particle_count,98.627,1.017,14,sustained low-side control-limit breach
+persistent_low_026,persistent_low,LOT-2026-0186,W16,EQP-07,METROLOGY,chamber_pressure_mTorr,100.743,0.964,15,sustained low-side control-limit breach
+persistent_low_027,persistent_low,LOT-2026-0187,W06,EQP-05,PHOTO,temperature_c,100.983,1.009,16,sustained low-side control-limit breach
+persistent_low_028,persistent_low,LOT-2026-0188,W11,EQP-01,DIFFUSION,overlay_error_nm,99.352,1.119,14,sustained low-side control-limit breach
+persistent_low_029,persistent_low,LOT-2026-0189,W21,EQP-02,METROLOGY,chamber_pressure_mTorr,100.923,1.161,16,sustained low-side control-limit breach
+persistent_low_030,persistent_low,LOT-2026-0190,W25,EQP-03,PHOTO,temperature_c,100.893,1.205,17,sustained low-side control-limit breach
+persistent_low_031,persistent_low,LOT-2026-0191,W19,EQP-07,DIFFUSION,temperature_c,98.573,0.788,16,sustained low-side control-limit breach
+persistent_low_032,persistent_low,LOT-2026-0192,W17,EQP-02,CMP,critical_dimension_nm,100.407,0.969,14,sustained low-side control-limit breach
+persistent_low_033,persistent_low,LOT-2026-0193,W23,EQP-12,PHOTO,etch_rate_nm_min,100.985,1.223,14,sustained low-side control-limit breach
+persistent_low_034,persistent_low,LOT-2026-0194,W13,EQP-08,ION_IMPLANT,temperature_c,100.334,1.293,14,sustained low-side control-limit breach
+persistent_low_035,persistent_low,LOT-2026-0195,W25,EQP-10,PHOTO,overlay_error_nm,98.607,0.932,12,sustained low-side control-limit breach
+persistent_low_036,persistent_low,LOT-2026-0196,W22,EQP-11,PHOTO,etch_rate_nm_min,99.551,1.104,13,sustained low-side control-limit breach
+persistent_low_037,persistent_low,LOT-2026-0197,W22,EQP-04,PVD,particle_count,100.491,1.102,12,sustained low-side control-limit breach
+persistent_low_038,persistent_low,LOT-2026-0198,W24,EQP-01,METROLOGY,temperature_c,99.622,0.830,13,sustained low-side control-limit breach
+persistent_low_039,persistent_low,LOT-2026-0199,W16,EQP-06,PHOTO,particle_count,99.049,0.803,13,sustained low-side control-limit breach
+persistent_low_040,persistent_low,LOT-2026-0200,W23,EQP-05,PVD,critical_dimension_nm,99.433,0.874,15,sustained low-side control-limit breach
+gradual_up_drift_001,gradual_up_drift,LOT-2026-0201,W15,EQP-07,CMP,particle_count,98.759,0.993,13,monotonic upward drift; slope=0.203
+gradual_up_drift_002,gradual_up_drift,LOT-2026-0202,W23,EQP-01,CVD,rf_power_w,99.295,0.949,13,monotonic upward drift; slope=0.235
+gradual_up_drift_003,gradual_up_drift,LOT-2026-0203,W19,EQP-11,ION_IMPLANT,temperature_c,98.894,1.013,14,monotonic upward drift; slope=0.261
+gradual_up_drift_004,gradual_up_drift,LOT-2026-0204,W09,EQP-04,ETCH,etch_rate_nm_min,100.917,1.085,17,monotonic upward drift; slope=0.218
+gradual_up_drift_005,gradual_up_drift,LOT-2026-0205,W08,EQP-12,CVD,rf_power_w,100.787,1.031,15,monotonic upward drift; slope=0.216
+gradual_up_drift_006,gradual_up_drift,LOT-2026-0206,W25,EQP-01,DIFFUSION,overlay_error_nm,99.322,1.284,14,monotonic upward drift; slope=0.251
+gradual_up_drift_007,gradual_up_drift,LOT-2026-0207,W03,EQP-04,PHOTO,particle_count,99.519,0.897,12,monotonic upward drift; slope=0.165
+gradual_up_drift_008,gradual_up_drift,LOT-2026-0208,W02,EQP-08,METROLOGY,critical_dimension_nm,98.719,1.343,14,monotonic upward drift; slope=0.345
+gradual_up_drift_009,gradual_up_drift,LOT-2026-0209,W14,EQP-06,CMP,etch_rate_nm_min,99.617,1.341,15,monotonic upward drift; slope=0.219
+gradual_up_drift_010,gradual_up_drift,LOT-2026-0210,W06,EQP-07,PVD,chamber_pressure_mTorr,101.162,1.248,13,monotonic upward drift; slope=0.270
+gradual_up_drift_011,gradual_up_drift,LOT-2026-0211,W19,EQP-03,PVD,temperature_c,99.185,1.077,16,monotonic upward drift; slope=0.179
+gradual_up_drift_012,gradual_up_drift,LOT-2026-0212,W21,EQP-06,CVD,film_thickness_nm,99.543,0.833,12,monotonic upward drift; slope=0.218
+gradual_up_drift_013,gradual_up_drift,LOT-2026-0213,W15,EQP-08,METROLOGY,particle_count,99.460,1.233,14,monotonic upward drift; slope=0.199
+gradual_up_drift_014,gradual_up_drift,LOT-2026-0214,W16,EQP-04,DIFFUSION,temperature_c,99.964,1.249,15,monotonic upward drift; slope=0.232
+gradual_up_drift_015,gradual_up_drift,LOT-2026-0215,W11,EQP-10,PHOTO,etch_rate_nm_min,99.859,1.238,17,monotonic upward drift; slope=0.304
+gradual_up_drift_016,gradual_up_drift,LOT-2026-0216,W04,EQP-08,PVD,overlay_error_nm,99.152,1.304,12,monotonic upward drift; slope=0.218
+gradual_up_drift_017,gradual_up_drift,LOT-2026-0217,W20,EQP-07,METROLOGY,film_thickness_nm,98.700,1.304,14,monotonic upward drift; slope=0.253
+gradual_up_drift_018,gradual_up_drift,LOT-2026-0218,W05,EQP-02,DIFFUSION,rf_power_w,99.803,0.764,16,monotonic upward drift; slope=0.153
+gradual_up_drift_019,gradual_up_drift,LOT-2026-0219,W24,EQP-07,PVD,film_thickness_nm,98.523,1.259,14,monotonic upward drift; slope=0.257
+gradual_up_drift_020,gradual_up_drift,LOT-2026-0220,W01,EQP-09,ETCH,chamber_pressure_mTorr,100.834,1.100,17,monotonic upward drift; slope=0.181
+gradual_up_drift_021,gradual_up_drift,LOT-2026-0221,W20,EQP-05,ETCH,etch_rate_nm_min,99.583,0.837,12,monotonic upward drift; slope=0.134
+gradual_up_drift_022,gradual_up_drift,LOT-2026-0222,W18,EQP-08,CMP,particle_count,99.744,0.872,13,monotonic upward drift; slope=0.222
+gradual_up_drift_023,gradual_up_drift,LOT-2026-0223,W22,EQP-12,CVD,critical_dimension_nm,101.298,1.251,17,monotonic upward drift; slope=0.226
+gradual_up_drift_024,gradual_up_drift,LOT-2026-0224,W13,EQP-10,CVD,temperature_c,99.389,1.163,14,monotonic upward drift; slope=0.282
+gradual_up_drift_025,gradual_up_drift,LOT-2026-0225,W21,EQP-09,DIFFUSION,overlay_error_nm,100.854,1.281,12,monotonic upward drift; slope=0.209
+gradual_up_drift_026,gradual_up_drift,LOT-2026-0226,W18,EQP-01,ETCH,chamber_pressure_mTorr,98.530,0.894,14,monotonic upward drift; slope=0.180
+gradual_up_drift_027,gradual_up_drift,LOT-2026-0227,W01,EQP-09,ION_IMPLANT,particle_count,100.374,0.990,15,monotonic upward drift; slope=0.226
+gradual_up_drift_028,gradual_up_drift,LOT-2026-0228,W23,EQP-04,ION_IMPLANT,particle_count,99.605,0.999,14,monotonic upward drift; slope=0.197
+gradual_up_drift_029,gradual_up_drift,LOT-2026-0229,W09,EQP-11,DIFFUSION,critical_dimension_nm,99.153,1.261,15,monotonic upward drift; slope=0.297
+gradual_up_drift_030,gradual_up_drift,LOT-2026-0230,W20,EQP-09,PVD,etch_rate_nm_min,98.958,0.805,14,monotonic upward drift; slope=0.142
+gradual_up_drift_031,gradual_up_drift,LOT-2026-0231,W15,EQP-09,CVD,etch_rate_nm_min,99.003,1.245,16,monotonic upward drift; slope=0.250
+gradual_up_drift_032,gradual_up_drift,LOT-2026-0232,W19,EQP-09,METROLOGY,overlay_error_nm,100.684,0.752,15,monotonic upward drift; slope=0.131
+gradual_up_drift_033,gradual_up_drift,LOT-2026-0233,W20,EQP-07,ETCH,overlay_error_nm,98.918,0.995,12,monotonic upward drift; slope=0.167
+gradual_up_drift_034,gradual_up_drift,LOT-2026-0234,W23,EQP-01,PHOTO,chamber_pressure_mTorr,98.854,0.939,14,monotonic upward drift; slope=0.186
+gradual_up_drift_035,gradual_up_drift,LOT-2026-0235,W02,EQP-07,ETCH,etch_rate_nm_min,100.770,1.277,12,monotonic upward drift; slope=0.245
+gradual_up_drift_036,gradual_up_drift,LOT-2026-0236,W09,EQP-01,PVD,temperature_c,98.628,0.881,15,monotonic upward drift; slope=0.215
+gradual_up_drift_037,gradual_up_drift,LOT-2026-0237,W22,EQP-09,PHOTO,chamber_pressure_mTorr,98.781,1.149,17,monotonic upward drift; slope=0.265
+gradual_up_drift_038,gradual_up_drift,LOT-2026-0238,W11,EQP-06,CVD,film_thickness_nm,99.105,1.156,12,monotonic upward drift; slope=0.284
+gradual_up_drift_039,gradual_up_drift,LOT-2026-0239,W04,EQP-09,METROLOGY,critical_dimension_nm,99.033,1.233,15,monotonic upward drift; slope=0.310
+gradual_up_drift_040,gradual_up_drift,LOT-2026-0240,W14,EQP-03,METROLOGY,overlay_error_nm,99.198,1.206,14,monotonic upward drift; slope=0.292
+gradual_down_drift_001,gradual_down_drift,LOT-2026-0241,W13,EQP-10,ION_IMPLANT,etch_rate_nm_min,99.189,1.275,14,monotonic downward drift; slope=0.311
+gradual_down_drift_002,gradual_down_drift,LOT-2026-0242,W23,EQP-02,PHOTO,chamber_pressure_mTorr,100.041,0.949,13,monotonic downward drift; slope=0.243
+gradual_down_drift_003,gradual_down_drift,LOT-2026-0243,W12,EQP-08,PHOTO,particle_count,101.131,1.080,16,monotonic downward drift; slope=0.188
+gradual_down_drift_004,gradual_down_drift,LOT-2026-0244,W23,EQP-03,PVD,overlay_error_nm,99.136,0.779,12,monotonic downward drift; slope=0.128
+gradual_down_drift_005,gradual_down_drift,LOT-2026-0245,W22,EQP-01,PVD,film_thickness_nm,100.525,0.952,14,monotonic downward drift; slope=0.248
+gradual_down_drift_006,gradual_down_drift,LOT-2026-0246,W14,EQP-05,PVD,critical_dimension_nm,99.991,0.856,16,monotonic downward drift; slope=0.166
+gradual_down_drift_007,gradual_down_drift,LOT-2026-0247,W17,EQP-12,CMP,particle_count,98.980,0.953,14,monotonic downward drift; slope=0.227
+gradual_down_drift_008,gradual_down_drift,LOT-2026-0248,W24,EQP-08,ION_IMPLANT,overlay_error_nm,98.716,0.855,16,monotonic downward drift; slope=0.161
+gradual_down_drift_009,gradual_down_drift,LOT-2026-0249,W25,EQP-09,ION_IMPLANT,critical_dimension_nm,99.297,0.757,17,monotonic downward drift; slope=0.144
+gradual_down_drift_010,gradual_down_drift,LOT-2026-0250,W16,EQP-07,PVD,rf_power_w,99.347,1.325,13,monotonic downward drift; slope=0.348
+gradual_down_drift_011,gradual_down_drift,LOT-2026-0251,W20,EQP-02,ETCH,particle_count,100.641,1.073,16,monotonic downward drift; slope=0.283
+gradual_down_drift_012,gradual_down_drift,LOT-2026-0252,W17,EQP-12,CVD,chamber_pressure_mTorr,100.455,0.934,13,monotonic downward drift; slope=0.236
+gradual_down_drift_013,gradual_down_drift,LOT-2026-0253,W12,EQP-07,METROLOGY,etch_rate_nm_min,99.727,1.241,14,monotonic downward drift; slope=0.246
+gradual_down_drift_014,gradual_down_drift,LOT-2026-0254,W09,EQP-11,CMP,film_thickness_nm,99.739,0.835,12,monotonic downward drift; slope=0.179
+gradual_down_drift_015,gradual_down_drift,LOT-2026-0255,W04,EQP-04,ION_IMPLANT,temperature_c,100.689,0.902,15,monotonic downward drift; slope=0.243
+gradual_down_drift_016,gradual_down_drift,LOT-2026-0256,W16,EQP-01,DIFFUSION,rf_power_w,100.270,1.350,13,monotonic downward drift; slope=0.325
+gradual_down_drift_017,gradual_down_drift,LOT-2026-0257,W13,EQP-07,ION_IMPLANT,chamber_pressure_mTorr,99.217,1.044,17,monotonic downward drift; slope=0.171
+gradual_down_drift_018,gradual_down_drift,LOT-2026-0258,W25,EQP-06,DIFFUSION,temperature_c,100.542,0.810,17,monotonic downward drift; slope=0.158
+gradual_down_drift_019,gradual_down_drift,LOT-2026-0259,W21,EQP-10,PHOTO,etch_rate_nm_min,101.143,1.015,12,monotonic downward drift; slope=0.179
+gradual_down_drift_020,gradual_down_drift,LOT-2026-0260,W09,EQP-07,PHOTO,overlay_error_nm,100.676,0.796,14,monotonic downward drift; slope=0.168
+gradual_down_drift_021,gradual_down_drift,LOT-2026-0261,W09,EQP-10,CMP,particle_count,99.540,0.964,15,monotonic downward drift; slope=0.205
+gradual_down_drift_022,gradual_down_drift,LOT-2026-0262,W14,EQP-07,ETCH,rf_power_w,101.067,0.862,13,monotonic downward drift; slope=0.226
+gradual_down_drift_023,gradual_down_drift,LOT-2026-0263,W17,EQP-10,PHOTO,rf_power_w,99.812,1.208,17,monotonic downward drift; slope=0.307
+gradual_down_drift_024,gradual_down_drift,LOT-2026-0264,W13,EQP-11,METROLOGY,temperature_c,99.232,0.887,17,monotonic downward drift; slope=0.188
+gradual_down_drift_025,gradual_down_drift,LOT-2026-0265,W17,EQP-11,PVD,etch_rate_nm_min,99.221,0.880,17,monotonic downward drift; slope=0.225
+gradual_down_drift_026,gradual_down_drift,LOT-2026-0266,W08,EQP-02,ION_IMPLANT,temperature_c,101.366,1.325,17,monotonic downward drift; slope=0.293
+gradual_down_drift_027,gradual_down_drift,LOT-2026-0267,W18,EQP-10,METROLOGY,particle_count,101.068,1.256,15,monotonic downward drift; slope=0.211
+gradual_down_drift_028,gradual_down_drift,LOT-2026-0268,W21,EQP-01,PHOTO,overlay_error_nm,99.365,0.807,17,monotonic downward drift; slope=0.192
+gradual_down_drift_029,gradual_down_drift,LOT-2026-0269,W04,EQP-11,CMP,critical_dimension_nm,99.421,0.794,12,monotonic downward drift; slope=0.135
+gradual_down_drift_030,gradual_down_drift,LOT-2026-0270,W06,EQP-06,ION_IMPLANT,particle_count,99.568,1.188,13,monotonic downward drift; slope=0.318
+gradual_down_drift_031,gradual_down_drift,LOT-2026-0271,W18,EQP-05,DIFFUSION,particle_count,100.355,1.004,15,monotonic downward drift; slope=0.207
+gradual_down_drift_032,gradual_down_drift,LOT-2026-0272,W10,EQP-07,CVD,chamber_pressure_mTorr,99.231,0.976,13,monotonic downward drift; slope=0.174
+gradual_down_drift_033,gradual_down_drift,LOT-2026-0273,W12,EQP-05,METROLOGY,film_thickness_nm,98.824,0.968,15,monotonic downward drift; slope=0.237
+gradual_down_drift_034,gradual_down_drift,LOT-2026-0274,W09,EQP-06,ION_IMPLANT,particle_count,101.298,0.970,13,monotonic downward drift; slope=0.260
+gradual_down_drift_035,gradual_down_drift,LOT-2026-0275,W03,EQP-05,ION_IMPLANT,rf_power_w,100.183,1.288,12,monotonic downward drift; slope=0.264
+gradual_down_drift_036,gradual_down_drift,LOT-2026-0276,W01,EQP-09,ION_IMPLANT,chamber_pressure_mTorr,98.800,0.927,13,monotonic downward drift; slope=0.195
+gradual_down_drift_037,gradual_down_drift,LOT-2026-0277,W02,EQP-04,PHOTO,film_thickness_nm,100.094,1.022,15,monotonic downward drift; slope=0.254
+gradual_down_drift_038,gradual_down_drift,LOT-2026-0278,W02,EQP-11,METROLOGY,overlay_error_nm,101.415,0.814,16,monotonic downward drift; slope=0.169
+gradual_down_drift_039,gradual_down_drift,LOT-2026-0279,W19,EQP-01,PHOTO,overlay_error_nm,99.324,1.223,14,monotonic downward drift; slope=0.249
+gradual_down_drift_040,gradual_down_drift,LOT-2026-0280,W03,EQP-12,CVD,temperature_c,100.292,0.912,15,monotonic downward drift; slope=0.178
+level_shift_001,level_shift,LOT-2026-0281,W09,EQP-04,CMP,chamber_pressure_mTorr,99.118,0.917,17,abrupt baseline shift; shift=2.736
+level_shift_002,level_shift,LOT-2026-0282,W19,EQP-03,METROLOGY,etch_rate_nm_min,99.817,1.144,17,abrupt baseline shift; shift=-3.501
+level_shift_003,level_shift,LOT-2026-0283,W05,EQP-03,PHOTO,etch_rate_nm_min,98.682,1.069,16,abrupt baseline shift; shift=-2.854
+level_shift_004,level_shift,LOT-2026-0284,W16,EQP-02,DIFFUSION,rf_power_w,99.378,1.122,17,abrupt baseline shift; shift=-2.920
+level_shift_005,level_shift,LOT-2026-0285,W20,EQP-08,ION_IMPLANT,rf_power_w,101.460,1.019,15,abrupt baseline shift; shift=3.163
+level_shift_006,level_shift,LOT-2026-0286,W07,EQP-06,CVD,etch_rate_nm_min,101.410,1.009,17,abrupt baseline shift; shift=-2.651
+level_shift_007,level_shift,LOT-2026-0287,W19,EQP-08,CMP,rf_power_w,98.834,1.164,13,abrupt baseline shift; shift=-3.002
+level_shift_008,level_shift,LOT-2026-0288,W18,EQP-01,CVD,critical_dimension_nm,99.332,1.169,12,abrupt baseline shift; shift=-3.046
+level_shift_009,level_shift,LOT-2026-0289,W24,EQP-03,DIFFUSION,critical_dimension_nm,99.507,1.283,13,abrupt baseline shift; shift=3.905
+level_shift_010,level_shift,LOT-2026-0290,W04,EQP-12,METROLOGY,rf_power_w,100.123,1.231,15,abrupt baseline shift; shift=-3.938
+level_shift_011,level_shift,LOT-2026-0291,W21,EQP-05,PHOTO,temperature_c,100.047,1.172,16,abrupt baseline shift; shift=2.799
+level_shift_012,level_shift,LOT-2026-0292,W23,EQP-04,CMP,chamber_pressure_mTorr,100.789,0.921,17,abrupt baseline shift; shift=-2.601
+level_shift_013,level_shift,LOT-2026-0293,W14,EQP-09,ION_IMPLANT,temperature_c,99.840,1.329,17,abrupt baseline shift; shift=-3.235
+level_shift_014,level_shift,LOT-2026-0294,W14,EQP-06,DIFFUSION,rf_power_w,101.311,0.860,17,abrupt baseline shift; shift=-2.181
+level_shift_015,level_shift,LOT-2026-0295,W03,EQP-01,ETCH,overlay_error_nm,99.951,1.009,17,abrupt baseline shift; shift=2.240
+level_shift_016,level_shift,LOT-2026-0296,W19,EQP-12,CVD,temperature_c,99.166,1.077,14,abrupt baseline shift; shift=2.956
+level_shift_017,level_shift,LOT-2026-0297,W06,EQP-02,METROLOGY,temperature_c,100.031,0.842,17,abrupt baseline shift; shift=2.528
+level_shift_018,level_shift,LOT-2026-0298,W22,EQP-12,METROLOGY,etch_rate_nm_min,98.815,0.877,12,abrupt baseline shift; shift=2.061
+level_shift_019,level_shift,LOT-2026-0299,W06,EQP-07,PVD,chamber_pressure_mTorr,100.076,1.091,12,abrupt baseline shift; shift=-2.975
+level_shift_020,level_shift,LOT-2026-0300,W21,EQP-01,METROLOGY,etch_rate_nm_min,100.743,1.271,16,abrupt baseline shift; shift=-3.223
+level_shift_021,level_shift,LOT-2026-0301,W01,EQP-08,CMP,critical_dimension_nm,100.011,1.110,16,abrupt baseline shift; shift=2.488
+level_shift_022,level_shift,LOT-2026-0302,W04,EQP-01,METROLOGY,chamber_pressure_mTorr,101.042,1.079,16,abrupt baseline shift; shift=-2.375
+level_shift_023,level_shift,LOT-2026-0303,W10,EQP-07,CVD,overlay_error_nm,100.227,1.150,14,abrupt baseline shift; shift=3.648
+level_shift_024,level_shift,LOT-2026-0304,W19,EQP-11,PHOTO,etch_rate_nm_min,100.183,1.337,14,abrupt baseline shift; shift=4.231
+level_shift_025,level_shift,LOT-2026-0305,W08,EQP-08,DIFFUSION,rf_power_w,101.136,1.131,13,abrupt baseline shift; shift=-2.834
+level_shift_026,level_shift,LOT-2026-0306,W23,EQP-05,METROLOGY,temperature_c,100.794,1.264,14,abrupt baseline shift; shift=3.771
+level_shift_027,level_shift,LOT-2026-0307,W25,EQP-08,ION_IMPLANT,rf_power_w,99.568,1.344,12,abrupt baseline shift; shift=-4.076
+level_shift_028,level_shift,LOT-2026-0308,W23,EQP-10,PHOTO,critical_dimension_nm,101.283,0.843,12,abrupt baseline shift; shift=-2.556
+level_shift_029,level_shift,LOT-2026-0309,W09,EQP-08,DIFFUSION,particle_count,99.398,0.951,12,abrupt baseline shift; shift=2.340
+level_shift_030,level_shift,LOT-2026-0310,W20,EQP-06,CVD,overlay_error_nm,100.991,1.289,13,abrupt baseline shift; shift=3.169
+level_shift_031,level_shift,LOT-2026-0311,W08,EQP-05,ION_IMPLANT,rf_power_w,99.374,0.934,13,abrupt baseline shift; shift=-2.700
+level_shift_032,level_shift,LOT-2026-0312,W07,EQP-08,METROLOGY,etch_rate_nm_min,100.733,1.170,17,abrupt baseline shift; shift=2.841
+level_shift_033,level_shift,LOT-2026-0313,W16,EQP-01,METROLOGY,particle_count,101.375,0.804,15,abrupt baseline shift; shift=1.865
+level_shift_034,level_shift,LOT-2026-0314,W07,EQP-02,METROLOGY,etch_rate_nm_min,100.576,0.829,15,abrupt baseline shift; shift=1.864
+level_shift_035,level_shift,LOT-2026-0315,W12,EQP-10,ION_IMPLANT,critical_dimension_nm,100.194,1.016,17,abrupt baseline shift; shift=-2.558
+level_shift_036,level_shift,LOT-2026-0316,W06,EQP-11,CVD,etch_rate_nm_min,99.969,0.896,16,abrupt baseline shift; shift=2.411
+level_shift_037,level_shift,LOT-2026-0317,W13,EQP-09,ETCH,critical_dimension_nm,100.341,0.892,14,abrupt baseline shift; shift=2.364
+level_shift_038,level_shift,LOT-2026-0318,W13,EQP-09,CMP,overlay_error_nm,99.622,0.806,13,abrupt baseline shift; shift=2.107
+level_shift_039,level_shift,LOT-2026-0319,W08,EQP-01,CVD,rf_power_w,98.540,0.895,12,abrupt baseline shift; shift=2.444
+level_shift_040,level_shift,LOT-2026-0320,W08,EQP-01,ION_IMPLANT,particle_count,100.185,1.156,16,abrupt baseline shift; shift=-3.258
+variance_increase_001,variance_increase,LOT-2026-0321,W21,EQP-02,PHOTO,critical_dimension_nm,99.531,1.220,14,same mean with wider post-start variance
+variance_increase_002,variance_increase,LOT-2026-0322,W15,EQP-10,ION_IMPLANT,temperature_c,100.128,1.270,14,same mean with wider post-start variance
+variance_increase_003,variance_increase,LOT-2026-0323,W14,EQP-07,METROLOGY,film_thickness_nm,101.420,1.202,15,same mean with wider post-start variance
+variance_increase_004,variance_increase,LOT-2026-0324,W15,EQP-01,PVD,critical_dimension_nm,100.698,0.802,12,same mean with wider post-start variance
+variance_increase_005,variance_increase,LOT-2026-0325,W19,EQP-04,ION_IMPLANT,particle_count,99.928,0.789,14,same mean with wider post-start variance
+variance_increase_006,variance_increase,LOT-2026-0326,W17,EQP-01,CMP,film_thickness_nm,99.955,1.012,16,same mean with wider post-start variance
+variance_increase_007,variance_increase,LOT-2026-0327,W02,EQP-10,CMP,particle_count,99.789,0.919,15,same mean with wider post-start variance
+variance_increase_008,variance_increase,LOT-2026-0328,W10,EQP-12,CVD,rf_power_w,99.118,1.186,14,same mean with wider post-start variance
+variance_increase_009,variance_increase,LOT-2026-0329,W25,EQP-11,PVD,film_thickness_nm,101.316,0.804,12,same mean with wider post-start variance
+variance_increase_010,variance_increase,LOT-2026-0330,W04,EQP-03,CMP,particle_count,101.189,1.066,12,same mean with wider post-start variance
+variance_increase_011,variance_increase,LOT-2026-0331,W06,EQP-01,PVD,rf_power_w,99.284,1.174,14,same mean with wider post-start variance
+variance_increase_012,variance_increase,LOT-2026-0332,W04,EQP-05,CMP,particle_count,101.485,1.093,14,same mean with wider post-start variance
+variance_increase_013,variance_increase,LOT-2026-0333,W06,EQP-03,CMP,etch_rate_nm_min,99.071,0.879,17,same mean with wider post-start variance
+variance_increase_014,variance_increase,LOT-2026-0334,W22,EQP-09,DIFFUSION,chamber_pressure_mTorr,99.282,0.823,16,same mean with wider post-start variance
+variance_increase_015,variance_increase,LOT-2026-0335,W01,EQP-12,PHOTO,rf_power_w,99.445,1.139,14,same mean with wider post-start variance
+variance_increase_016,variance_increase,LOT-2026-0336,W19,EQP-07,CMP,overlay_error_nm,100.519,1.167,17,same mean with wider post-start variance
+variance_increase_017,variance_increase,LOT-2026-0337,W06,EQP-11,PVD,overlay_error_nm,100.220,1.023,16,same mean with wider post-start variance
+variance_increase_018,variance_increase,LOT-2026-0338,W13,EQP-08,CMP,overlay_error_nm,100.650,0.897,17,same mean with wider post-start variance
+variance_increase_019,variance_increase,LOT-2026-0339,W24,EQP-01,CVD,overlay_error_nm,98.830,0.971,12,same mean with wider post-start variance
+variance_increase_020,variance_increase,LOT-2026-0340,W05,EQP-12,METROLOGY,critical_dimension_nm,101.075,0.821,14,same mean with wider post-start variance
+variance_increase_021,variance_increase,LOT-2026-0341,W07,EQP-05,PHOTO,etch_rate_nm_min,101.397,0.805,15,same mean with wider post-start variance
+variance_increase_022,variance_increase,LOT-2026-0342,W03,EQP-02,CVD,film_thickness_nm,100.617,0.793,12,same mean with wider post-start variance
+variance_increase_023,variance_increase,LOT-2026-0343,W13,EQP-09,METROLOGY,film_thickness_nm,100.620,0.994,13,same mean with wider post-start variance
+variance_increase_024,variance_increase,LOT-2026-0344,W06,EQP-08,PHOTO,critical_dimension_nm,100.741,0.783,16,same mean with wider post-start variance
+variance_increase_025,variance_increase,LOT-2026-0345,W13,EQP-10,ION_IMPLANT,rf_power_w,98.621,1.034,15,same mean with wider post-start variance
+variance_increase_026,variance_increase,LOT-2026-0346,W24,EQP-12,ION_IMPLANT,particle_count,99.937,0.886,13,same mean with wider post-start variance
+variance_increase_027,variance_increase,LOT-2026-0347,W22,EQP-12,ETCH,temperature_c,100.491,1.019,14,same mean with wider post-start variance
+variance_increase_028,variance_increase,LOT-2026-0348,W15,EQP-01,ION_IMPLANT,overlay_error_nm,101.441,0.781,12,same mean with wider post-start variance
+variance_increase_029,variance_increase,LOT-2026-0349,W23,EQP-11,METROLOGY,critical_dimension_nm,101.018,0.831,14,same mean with wider post-start variance
+variance_increase_030,variance_increase,LOT-2026-0350,W10,EQP-05,PVD,temperature_c,99.901,0.927,13,same mean with wider post-start variance
+variance_increase_031,variance_increase,LOT-2026-0351,W25,EQP-04,CVD,critical_dimension_nm,99.372,0.954,16,same mean with wider post-start variance
+variance_increase_032,variance_increase,LOT-2026-0352,W12,EQP-10,ETCH,chamber_pressure_mTorr,99.642,0.969,12,same mean with wider post-start variance
+variance_increase_033,variance_increase,LOT-2026-0353,W25,EQP-07,METROLOGY,chamber_pressure_mTorr,100.823,0.928,16,same mean with wider post-start variance
+variance_increase_034,variance_increase,LOT-2026-0354,W24,EQP-10,CVD,film_thickness_nm,99.975,1.029,14,same mean with wider post-start variance
+variance_increase_035,variance_increase,LOT-2026-0355,W07,EQP-04,DIFFUSION,particle_count,100.462,1.318,16,same mean with wider post-start variance
+variance_increase_036,variance_increase,LOT-2026-0356,W08,EQP-02,METROLOGY,temperature_c,99.391,1.026,13,same mean with wider post-start variance
+variance_increase_037,variance_increase,LOT-2026-0357,W18,EQP-03,CMP,overlay_error_nm,101.380,0.909,16,same mean with wider post-start variance
+variance_increase_038,variance_increase,LOT-2026-0358,W04,EQP-03,ETCH,critical_dimension_nm,99.809,1.276,14,same mean with wider post-start variance
+variance_increase_039,variance_increase,LOT-2026-0359,W11,EQP-02,DIFFUSION,rf_power_w,100.906,1.282,12,same mean with wider post-start variance
+variance_increase_040,variance_increase,LOT-2026-0360,W24,EQP-04,CMP,temperature_c,100.740,0.879,17,same mean with wider post-start variance
+measurement_error_001,measurement_error,LOT-2026-0361,W21,EQP-06,PHOTO,overlay_error_nm,101.319,1.346,12,4 invalid raw readings
+measurement_error_002,measurement_error,LOT-2026-0362,W10,EQP-12,DIFFUSION,critical_dimension_nm,99.558,1.068,13,4 invalid raw readings
+measurement_error_003,measurement_error,LOT-2026-0363,W02,EQP-05,METROLOGY,chamber_pressure_mTorr,101.099,1.027,13,2 invalid raw readings
+measurement_error_004,measurement_error,LOT-2026-0364,W01,EQP-09,DIFFUSION,particle_count,100.083,1.015,12,2 invalid raw readings
+measurement_error_005,measurement_error,LOT-2026-0365,W14,EQP-01,CVD,overlay_error_nm,98.584,1.214,12,2 invalid raw readings
+measurement_error_006,measurement_error,LOT-2026-0366,W14,EQP-05,CVD,critical_dimension_nm,100.207,1.344,15,2 invalid raw readings
+measurement_error_007,measurement_error,LOT-2026-0367,W23,EQP-01,PVD,critical_dimension_nm,99.132,1.294,12,3 invalid raw readings
+measurement_error_008,measurement_error,LOT-2026-0368,W14,EQP-09,ION_IMPLANT,overlay_error_nm,99.395,1.104,15,2 invalid raw readings
+measurement_error_009,measurement_error,LOT-2026-0369,W01,EQP-07,PVD,temperature_c,100.023,0.947,16,2 invalid raw readings
+measurement_error_010,measurement_error,LOT-2026-0370,W14,EQP-06,ETCH,film_thickness_nm,99.053,1.014,13,4 invalid raw readings
+measurement_error_011,measurement_error,LOT-2026-0371,W01,EQP-03,CMP,particle_count,99.599,0.975,12,3 invalid raw readings
+measurement_error_012,measurement_error,LOT-2026-0372,W13,EQP-11,CMP,film_thickness_nm,100.508,1.044,12,3 invalid raw readings
+measurement_error_013,measurement_error,LOT-2026-0373,W21,EQP-09,PHOTO,film_thickness_nm,101.365,1.307,13,4 invalid raw readings
+measurement_error_014,measurement_error,LOT-2026-0374,W08,EQP-06,DIFFUSION,overlay_error_nm,99.274,1.295,14,4 invalid raw readings
+measurement_error_015,measurement_error,LOT-2026-0375,W20,EQP-11,CMP,etch_rate_nm_min,99.478,1.231,12,2 invalid raw readings
+measurement_error_016,measurement_error,LOT-2026-0376,W13,EQP-01,METROLOGY,film_thickness_nm,101.403,1.236,16,4 invalid raw readings
+measurement_error_017,measurement_error,LOT-2026-0377,W03,EQP-03,CMP,critical_dimension_nm,101.449,0.946,15,3 invalid raw readings
+measurement_error_018,measurement_error,LOT-2026-0378,W19,EQP-07,ION_IMPLANT,chamber_pressure_mTorr,99.211,1.106,15,3 invalid raw readings
+measurement_error_019,measurement_error,LOT-2026-0379,W12,EQP-05,PVD,overlay_error_nm,100.706,0.786,15,4 invalid raw readings
+measurement_error_020,measurement_error,LOT-2026-0380,W04,EQP-04,ION_IMPLANT,film_thickness_nm,100.982,0.810,13,3 invalid raw readings
+measurement_error_021,measurement_error,LOT-2026-0381,W21,EQP-07,DIFFUSION,temperature_c,100.720,0.867,16,2 invalid raw readings
+measurement_error_022,measurement_error,LOT-2026-0382,W09,EQP-10,CVD,temperature_c,99.594,0.928,16,4 invalid raw readings
+measurement_error_023,measurement_error,LOT-2026-0383,W09,EQP-03,CVD,particle_count,100.247,1.270,16,4 invalid raw readings
+measurement_error_024,measurement_error,LOT-2026-0384,W19,EQP-10,METROLOGY,rf_power_w,98.762,0.783,14,4 invalid raw readings
+measurement_error_025,measurement_error,LOT-2026-0385,W20,EQP-04,ETCH,particle_count,100.934,1.338,16,2 invalid raw readings
+measurement_error_026,measurement_error,LOT-2026-0386,W24,EQP-03,METROLOGY,overlay_error_nm,98.713,0.923,12,4 invalid raw readings
+measurement_error_027,measurement_error,LOT-2026-0387,W15,EQP-12,PHOTO,film_thickness_nm,99.052,1.251,14,4 invalid raw readings
+measurement_error_028,measurement_error,LOT-2026-0388,W02,EQP-10,CVD,temperature_c,99.788,1.178,16,4 invalid raw readings
+measurement_error_029,measurement_error,LOT-2026-0389,W13,EQP-05,ETCH,particle_count,100.000,0.903,16,2 invalid raw readings
+measurement_error_030,measurement_error,LOT-2026-0390,W16,EQP-06,DIFFUSION,etch_rate_nm_min,99.802,0.757,12,3 invalid raw readings
+measurement_error_031,measurement_error,LOT-2026-0391,W01,EQP-11,PVD,chamber_pressure_mTorr,101.355,0.951,12,3 invalid raw readings
+measurement_error_032,measurement_error,LOT-2026-0392,W21,EQP-09,CVD,chamber_pressure_mTorr,99.496,0.796,17,2 invalid raw readings
+measurement_error_033,measurement_error,LOT-2026-0393,W19,EQP-03,CVD,overlay_error_nm,98.900,0.915,14,4 invalid raw readings
+measurement_error_034,measurement_error,LOT-2026-0394,W10,EQP-03,DIFFUSION,temperature_c,100.800,0.981,17,4 invalid raw readings
+measurement_error_035,measurement_error,LOT-2026-0395,W07,EQP-10,METROLOGY,particle_count,101.278,1.013,14,3 invalid raw readings
+measurement_error_036,measurement_error,LOT-2026-0396,W01,EQP-01,PHOTO,overlay_error_nm,101.085,0.825,15,3 invalid raw readings
+measurement_error_037,measurement_error,LOT-2026-0397,W09,EQP-02,CVD,film_thickness_nm,100.695,0.838,12,2 invalid raw readings
+measurement_error_038,measurement_error,LOT-2026-0398,W04,EQP-02,METROLOGY,particle_count,100.318,1.259,12,2 invalid raw readings
+measurement_error_039,measurement_error,LOT-2026-0399,W23,EQP-09,CMP,particle_count,100.545,1.002,13,3 invalid raw readings
+measurement_error_040,measurement_error,LOT-2026-0400,W22,EQP-05,DIFFUSION,chamber_pressure_mTorr,100.766,0.815,13,4 invalid raw readings
